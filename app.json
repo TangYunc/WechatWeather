@@ -1,6 +1,8 @@
 {
   "pages": [
-    "pages/main/main"
+    "pages/main/main",
+    "pages/template/itemtpl"
+    
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",

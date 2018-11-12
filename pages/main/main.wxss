@@ -37,3 +37,31 @@
 .weather {
   text-align: center
 }
+
+.future{
+     display: flex;
+     flex-direction: row;
+     height: 30%;
+     padding-left: 5rpx;
+     background:#FFFFFF;
+     background:rgba(0, 0, 0, 0.1);
+     box-shadow:10px 10px 20px rgba(0,0,0,0.5);
+     text-align: center;
+     padding-top:10rpx;
+     padding-bottom:20rpx;
+}
+
+.future-item{
+    min-height:100%;
+    width: 165rpx;
+    margin-left: 10rpx;
+    margin-right: 10rpx;
+    border: 1px solid coral;
+    border-radius:10px;
+    padding-top:10rpx;
+
+}
+
+.future-item view{
+    margin-top:10px;
+}

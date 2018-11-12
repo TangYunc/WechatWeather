@@ -11,5 +11,11 @@
     </view>
   </view>
 
+  <import src="../template/itemtpl" />
+  <view class="future">
+    <block wx:for="{{future}}">
+      <template is="future-item" data="{{item}}" />
+    </block>
+  </view>
 
 </view>
